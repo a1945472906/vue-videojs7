@@ -115,7 +115,8 @@ export default {
           'waiting',
           'playing',
           'ended',
-          'error'
+          'error',
+          'volumechange'
         ]
         const events = DEFAULT_EVENTS.concat(self.events).concat(
           self.globalEvents
